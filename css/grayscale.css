@@ -41,10 +41,21 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
+  color: #e05031; }
   a:focus, a:hover {
     text-decoration: none;
     color: #ffff; }
+
+b {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: black;
+  font-size: 18px; }
+  b:focus, b:hover {
+    text-decoration: none;
+    color: #e05031;
+    font-size: 18px; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -100,7 +111,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/fineas-anton-180751.jpg") no-repeat bottom center scroll;
+  background: url("../img/carl-cerstrand-136807.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,7 +157,7 @@ a {
 
 .contact-section {
   color: white;
-  background: url("../img/carl-cerstrand-136807.jpg") no-repeat center center scroll;
+  background: url("../img/fineas-anton-180751.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,14 +185,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent; }
+  color: white;
+  border: 1px solid black;
+  background-color: black; }
   .btn-default:focus, .btn-default:hover {
-    color: black;
-    border: 1px solid #42DCA3;
+    color: white;
+    border: 1px solid #e05031;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #e05031; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
