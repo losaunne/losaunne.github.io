@@ -37,25 +37,27 @@ p {
       line-height: 1.6;
       margin: 0 0 35px; } }
 
-a {
+a.one {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #e05031; }
-  a:focus, a:hover {
+  a.one:focus, a.one:hover {
     text-decoration: none;
     color: #ffff; }
 
-b {
+a.two {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: black;
-  font-size: 18px; }
-  b:focus, b:hover {
+  font-size: 18px;
+  font-weight: bold;}
+  a.two:focus, a.two:hover {
     text-decoration: none;
     color: #e05031;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: bold;}
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
